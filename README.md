@@ -4,14 +4,14 @@ FlowController is a demonstration project that illustrates a common implementati
 The goal of this project is to exhibit a clean separation of concerns and a structured navigation flow, thereby promoting a more organized and maintainable codebase.
 
 # Features
-A MainCoordinator class that centralizes navigation logic, keeping it separate from view controllers.
+The MainCoordinator class that centralizes navigation logic, keeping it separate from view controllers.
 
 Multiple view controllers (ViewControllerA, ViewControllerB, ViewControllerC, ViewControllerD, and ViewControllerE) demonstrating different navigation paths managed by the MainCoordinator.
 
 A demonstration of passing data from one view controller to another using the Coordinator pattern.
 
 # Benefits and Trade-offs
-Pro: Provides a clear separation of concerns by moving navigation logic out of view controllers, making the codebase more organized and easier to maintain.✅
+Pro: Gives a clear separation of concerns by moving navigation logic out of view controllers, making the codebase more organized and easier to maintain.✅
 
 Pro: Helps manage dependencies and share common data across the app, which can be beneficial in large projects.✅
 
